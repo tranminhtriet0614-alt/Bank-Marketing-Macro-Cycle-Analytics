@@ -15,11 +15,6 @@ This project investigates how macroeconomic cycles moderate the effectiveness of
 * **Simpson's Paradox in Customer Re-engagement:** Aggregate data falsely suggests previously rejected leads convert better than new prospects (14.23% vs. 8.83%). Controlling for economic phases reveals that **first-time prospects consistently outperform previously rejected leads across all 3 regimes** (e.g., 18.02% vs. 12.42% in *Recession*).
 * **Strong Predictive Performance:** The Logistic Regression interaction model achieved a 5-Fold Cross-Validation **AUC-ROC of 0.9144** (0.9150 on full dataset).
 
-## 4. Visual Highlights
-| Macroeconomic Cluster Profile | Simpson's Paradox Distribution | Logistic Regression ROC Curve |
-| :---: | :---: | :---: |
-| ![Cluster Profile](./images/cluster_profile_heatmap.png) | ![Simpson Paradox](./images/distribution_simpson.png) | ![ROC Curve](./images/RQ3_ROC_Curve_Result.png) |
-
-## 5. Tech Stack
+## 4. Tech Stack
 * **Language:** Python 3
 * **Libraries:** `pandas`, `numpy`, `scikit-learn`, `scipy`, `matplotlib`, `seaborn`
