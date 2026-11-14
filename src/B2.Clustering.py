@@ -12,8 +12,8 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 # =========================================================================
 # CẤU HÌNH: Ghi đè trực tiếp kết quả vào file encoded để tạo Dataset trung tâm
 # =========================================================================
-INPUT_FILE  = 'Data_bank_encoded.csv'
-OUTPUT_FILE = 'Data_bank_encoded.csv'
+INPUT_FILE = '../data/Data_bank_encoded.csv'
+OUTPUT_FILE = '../data/Data_bank_encoded.csv'
 
 FEATURES = ['euribor3m', 'cons.conf.idx', 'cons.price.idx', 'emp.var.rate']
 
