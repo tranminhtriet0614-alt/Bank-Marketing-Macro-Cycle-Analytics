@@ -6,8 +6,8 @@ print("==========================================================")
 print("     TIẾN HÀNH BƯỚC: TIỀN XỬ LÝ VÀ CHUẨN BỊ DỮ LIỆU")
 print("==========================================================")
 
-INPUT_FILE  = 'Data_bank_o.csv'
-OUTPUT_FILE = 'Data_bank_encoded.csv'
+INPUT_FILE  = '../data/Data_bank_o.csv'
+OUTPUT_FILE = '../data/Data_bank_encoded.csv'
 
 if not os.path.exists(INPUT_FILE):
     raise FileNotFoundError(f"Không tìm thấy file dữ liệu gốc '{INPUT_FILE}'.")
