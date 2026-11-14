@@ -13,7 +13,7 @@ from sklearn.metrics import f1_score, roc_auc_score
 # =========================================================================
 plt.rcParams['axes.unicode_minus'] = False
 
-INPUT_FILE = './Data_bank_encoded.csv'
+INPUT_FILE = '../data/Data_bank_encoded.csv'
 
 # Bộ từ điển nhãn hiển thị dùng chung toàn file
 PHASE_NAMES    = {1: '1. Tăng trưởng', 2: '2. Suy thoái', 3: '3. Chạm đáy'}
