@@ -27,7 +27,7 @@ print("=" * 60)
 # =========================================================================
 # BƯỚC 1: ĐỌC VÀ TIỀN XỬ LÝ DỮ LIỆU
 # =========================================================================
-INPUT_FILE = './Data_bank_encoded.csv'
+INPUT_FILE = '../data/Data_bank_encoded.csv'
 if not os.path.exists(INPUT_FILE):
     raise FileNotFoundError(
         f"Không tìm thấy file '{INPUT_FILE}'. Vui lòng chạy file dữ liệu sạch trước!"
