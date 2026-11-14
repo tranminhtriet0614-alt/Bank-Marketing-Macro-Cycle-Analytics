@@ -3,7 +3,6 @@
 ## 1. Project Overview
 This project investigates how macroeconomic cycles moderate the effectiveness of direct telemarketing campaigns for bank term deposits using the **Bank Marketing Dataset** (41,188 call records during the 2008–2010 financial crisis). Following the **KDD (Knowledge Discovery in Databases)** framework, we combine unsupervised clustering, non-parametric statistical testing, and supervised machine learning to optimize customer targeting strategies.
 
-📄 **[Read Full Research Report (PDF)](./report/Bank_Marketing_Macro_Analysis_Report.pdf)**
 
 ## 2. Methodology & Pipeline
 1. **Data Preprocessing (`src/01_data_preparation.py`):** Filtered invalid calls (`duration = 0`), encoded ordinal/binary variables, and engineered behavioral bins (`duration_group`, `campaign_group`).
